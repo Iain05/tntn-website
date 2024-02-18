@@ -1,0 +1,270 @@
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: var(--bs-tntngreen) !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 650;
+  padding: .75em 0;
+  letter-spacing: 1px;
+  color: #222;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.bg-dark {
+  background-color: #111 !important;
+}
+
+:root {
+  --tntn-green: rgb(170, 255, 0);
+  --bs-background: rgb(17, 17, 17);
+  --primary-text-color: #eee;
+  --bs-card-color: rgb(17, 17, 17);
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #DE4149;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-tntngreen: rgb(170, 255, 0);
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #868e96;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #868e96;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #fed136;
+  --bs-secondary: #868e96;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 254, 209, 54;
+  --bs-secondary-rgb: 134, 142, 150;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: var(--bs-red) !important;
+  border-color: #e54f4f !important;
+  color: #e54f4f;
+}
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .25rem #DE4149;
+}
+
+.btn-primary:active, .btn-primary:hover {
+  background-color: var(--bs-tntngreen) !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 .2rem var(--bs-tntngreen) !important;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: var(--bs-tntngreen);
+}
+
+.text-primary {
+  --bs-text-opacity: 1;
+  color: var(--bs-tntngreen) !important;
+}
+
+::selection {
+  background: rgba(170, 255, 0, 0.35);
+  text-shadow: none;
+}
+
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: var(--bs-border-width);
+  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-radius: var(--bs-border-radius);
+  --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+  --bs-card-bg: var(--bs-body-bg);
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  color: var(--bs-body-color);
+  word-wrap: break-word;
+  background-color: var(--bs-background);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: var(--primary-text-color) !important;
+}
+
+p {
+  color: var(--primary-text-color);
+}
+
+.col-md-6 {
+  display: flex;
+  align-items: center;
+}
+
+.intro-text.vertical-center {
+  top: 50%;
+  -ms-transform: translateY(-55%);
+  transform: translateY(-55%);
+}
+
+@media (max-width: 600px) {
+  .intro-text.vertical-center {
+    top: 45%;
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%);
+  }
+}
+
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.horizontal-center {
+  margin: 0;
+  position: relative;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--tntn-green);
+}
+
+.card-title {
+  margin-bottom: var(--bs-card-title-spacer-y);
+  color: var(--primary-text-color);
+  font-weight: bold;
+}
+
+@media (min-width: 1600px) {
+  .background-elephant {
+    width: 70%;
+    margin-left: 12.5%;
+    padding-top: 5%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .background-elephant {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 800px) {
+  .background-elephant {
+    width: 100%;
+    margin-left: 0%;
+    padding-top: 30%;
+  }
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0;
+  background-color: var(--tntn-green);
+  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media (min-width: 480px) {
+  .fit-cover.profile-picture {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fit-cover.profile-picture {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 700px) {
+  .row.profiles {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 700px) {
+  .row.profiles {
+    padding-top: 100px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-stats {
+  }
+}
+
+@media (min-width: 576px) {
+  .home-stats {
+    border-right: 20px solid var(--primary-text-color);
+    border-left: 20px solid var(--primary-text-color);
+    border-right-style: solid;
+    border-right-width: 20px;
+    border-left-style: solid;
+    border-left-width: 20px;
+  }
+}
+

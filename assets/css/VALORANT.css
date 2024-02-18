@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'VALORANT';
+	src: url(../../assets/fonts/VALORANT-1053497f00bf60348777f5d86fe74569.woff2) format('woff2'),
+	url(../../assets/fonts/VALORANT-0fff685bd6945c18be47fc319a4a2683.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

@@ -131,6 +131,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
+  flex: 1 1 20em;
+  flex-grow: 1;
 }
 
 .text-muted {
@@ -266,5 +268,33 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     border-left-style: solid;
     border-left-width: 20px;
   }
+}
+
+.btn-primary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #bcf93e;
+  --bs-btn-border-color: #bcf93e;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #C6FA5B;
+  --bs-btn-hover-border-color: #C3FA51;
+  --bs-btn-focus-shadow-rgb: 28,37,9;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #C9FA65;
+  --bs-btn-active-border-color: #C3FA51;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #bcf93e;
+  --bs-btn-disabled-border-color: #bcf93e;
+}
+
+.gallery-image {
+  flex: 1 1 20em;
+  flex-grow: 1;
+  display: flex;
+}
+
+#gallery-image {
+  flex: 1 1 20em;
+  flex-grow: 1;
+  display: flex;
 }
 

@@ -7,3 +7,5 @@ Okay but like why are you reading this tho
 - Compress images good
 - Link to flickr on media page
 - Add more events
+- Add WPRA images
+- Change title to TNTN Robotics (remove VEX)

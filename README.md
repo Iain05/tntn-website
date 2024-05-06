@@ -2,7 +2,10 @@ Okay but like why are you reading this tho
 
 # To-Do
 
-- Change skills champions to x2
-- Image gallery slideshow
+- Remove .html extension from url's
+- Image gallery slideshow?
 - Compress images good
-- Think that's all for now?
+- Link to flickr on media page
+- Add more events
+- Add WPRA images
+- Change title to TNTN Robotics (remove VEX)

@@ -1,3 +1,2 @@
-if (document.querySelectorAll('[data-bss-baguettebox]').length > 0) {
-   baguetteBox.run('[data-bss-baguettebox]', { animation: 'slideIn' });
-}
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/187356155@N06/albums/72177720319992468" title="WPRA Early Season 2024"><img src="https://live.staticflickr.com/65535/53964076526_2269285570_z.jpg" width="640" height="480" alt="WPRA Early Season 2024"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
